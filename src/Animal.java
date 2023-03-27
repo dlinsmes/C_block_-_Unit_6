@@ -4,6 +4,11 @@ public class Animal {
     public Animal (int e) {
         energy = e;
     }
+
+    public Animal() {
+        energy = 0;
+    }
+
     public int getEnergy() {
         return energy;
     }
@@ -14,6 +19,7 @@ public class Animal {
 
     public void eat() {
         energy += 5;
+        System.out.println("Animal eat");
     }
 
     public void sleep() {
