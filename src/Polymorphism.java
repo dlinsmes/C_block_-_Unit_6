@@ -1,5 +1,3 @@
-import java.awt.geom.Rectangle2D;
-
 public class Polymorphism {
     public static void main(String [] args) {
         Narwhal n = new Narwhal();
