@@ -7,7 +7,7 @@ public class Polymorphism {
 
         //polymorphism - an object can be declared as any type within its
         //hierarchy
-        //-method behaviors will follow the method definitions defined
+        //-method behaviors will follow  any overridden versions defined
         //closest to the actual type
         //declared type - type that's declared on the left of =
         //actual type - constructor type on the right of =
